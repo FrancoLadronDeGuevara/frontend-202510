@@ -1,0 +1,13 @@
+.noVisible {
+  display: none;
+}
+
+body {
+  background-color: #eeeeee;
+  color: rgb(18, 18, 18);
+}
+
+.oscuro {
+  background-color: black;
+  color: white;
+}
