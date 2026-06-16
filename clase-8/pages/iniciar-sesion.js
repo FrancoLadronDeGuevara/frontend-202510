@@ -1,3 +1,5 @@
+import { alertaExito } from "../alert.js";
+
 const listaUsuarios = JSON.parse(localStorage.getItem("listaUsuarios")) || []; //JSON -> JS
 const usuarioLogueado = localStorage.getItem("usuarioLogueado") || false;
 
@@ -30,7 +32,7 @@ $formulario.onsubmit = (evento) => {
 
   localStorage.setItem("usuarioLogueado", true);
 
-  alert("Bienvenido a la plataforma");
+  alertaExito("Bienvenido!");
 
   setTimeout(() => {
     window.location.href = "/index.html";

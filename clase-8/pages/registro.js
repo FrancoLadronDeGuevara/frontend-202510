@@ -1,4 +1,11 @@
+import { alertaExito } from "../alert.js";
+
 const listaUsuarios = JSON.parse(localStorage.getItem("listaUsuarios")) || []; //JSON -> JS
+const usuarioLogueado = localStorage.getItem("usuarioLogueado") || false;
+
+if (usuarioLogueado) {
+  window.location.href = "/index.html";
+}
 
 const $formulario = document.getElementById("formulario");
 
@@ -39,7 +46,7 @@ $formulario.onsubmit = (evento) => {
   //JS -> JSON
   localStorage.setItem("listaUsuarios", JSON.stringify(listaUsuarios));
 
-  alert("Registro exitoso!");
+  alertaExito("Registro Éxitoso!");
 
   setTimeout(() => {
     window.location.href = "./iniciar-sesion.html";
