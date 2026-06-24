@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="usuarios"></ul>
+    <form id="formulario">
+      <fieldset>
+        <legend>Crear Post</legend>
+        <div>
+          <label for="id-usuario">ID del Usuario</label>
+          <input type="number" id="id-usuario" />
+        </div>
+        <div>
+          <label for="titulo">Titulo Post</label>
+          <input type="text" id="titulo" />
+        </div>
+        <div>
+          <label for="cuerpo">Cuerpo Post</label>
+          <textarea name="cuerpo" id="cuerpo" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Crear Post</button>
+      </fieldset>
+    </form>
+    <div id="post"></div>
+  </body>
+  <script type="module" src="api.js"></script>
+  <script type="module" src="main.js"></script>
+</html>
