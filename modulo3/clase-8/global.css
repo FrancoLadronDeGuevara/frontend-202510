@@ -1,0 +1,29 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.hero-section {
+  background-image: url("./assets/hero-section.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 0 10px 2px #000000;
+}
+
+.registro,
+.iniciar-sesion {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}

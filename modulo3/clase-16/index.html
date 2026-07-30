@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Paginacion Superheroes</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <h1>Hero Universe</h1>
+        </div>
+        <p class="header-sub">Enciclopedia de Superhéroes</p>
+      </div>
+    </header>
+
+    <section class="controles">
+      <div class="busqueda-contenedor">
+        <span class="busqueda-icono">🔍</span>
+        <input
+          type="text"
+          id="busqueda"
+          class="input-busqueda"
+          placeholder="Buscar héroe..."
+        />
+      </div>
+
+      <div class="filtros">
+        <select class="select-filtro" id="filtro-genero">
+          <option value="">👤 Género</option>
+          <option value="Female">♀ Femenino</option>
+          <option value="Male">♂ Masculino</option>
+        </select>
+
+        <select id="filtro-alignment" class="select-filtro">
+          <option value="">⚖️ Caracter</option>
+          <option value="good">😇 Bueno</option>
+          <option value="bad">😈 Malo</option>
+          <option value="neutral">😐 Neutral</option>
+        </select>
+
+        <select id="filtro-editorial" class="select-filtro">
+          <option value="">📚 Editorial</option>
+        </select>
+
+        <button id="btn-limpiar" class="btn-limpiar" title="Limpiar filtros">
+          x Limpiar
+        </button>
+      </div>
+    </section>
+
+    <div id="contenedor">
+      <div id="personajes"></div>
+      <div class="botones">
+        <button class="anterior">Anterior</button>
+        <button class="pagina">1</button>
+        <button class="siguiente">Siguiente</button>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>

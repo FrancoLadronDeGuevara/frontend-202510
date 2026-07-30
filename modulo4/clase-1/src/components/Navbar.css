@@ -1,0 +1,13 @@
+.navbar {
+  background-color: aqua;
+}
+
+.navbar button {
+  padding: 8px 4px;
+  background-color: red;
+  color: #fff;
+}
+
+.footer {
+  background-color: gray;
+}
