@@ -1,0 +1,14 @@
+.boton {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #02c202;
+  color: #fff;
+  font-weight: bolder;
+  width: 200px;
+}
+
+.boton:hover {
+  background-color: #018301;
+  cursor: pointer;
+}

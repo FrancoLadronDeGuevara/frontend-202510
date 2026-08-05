@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor-botones {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.contenedor-frutas {
+  display: flex;
+  gap: 2rem;
+}
+
+.contenedor-principal {
+  min-height: 100dvh;
+}
