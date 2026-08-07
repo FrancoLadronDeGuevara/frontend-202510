@@ -1,0 +1,19 @@
+.alert {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 200px;
+  border-radius: 5px;
+  height: 100px;
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  box-shadow: 0 8px 10px #00000050;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
