@@ -1,0 +1,27 @@
+.skeleton {
+  width: 200px;
+  height: 400px;
+  background-color: #ccc;
+  margin: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: skeleton-loading 1s ease-in-out infinite;
+}
+
+.skeletons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: #ddd;
+  }
+  100% {
+    background-color: #ccc;
+  }
+}
