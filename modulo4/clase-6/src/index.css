@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.card-producto {
+  border: solid 1px gray;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  min-width: 470px;
+  position: relative;
+}
+
+.oferta {
+  padding: 4px;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.oferta p {
+  font-size: 10px;
+  color: #fff;
+}
+
+.perfil-usuaria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.estado {
+  color: #fff;
+  border-radius: 16px;
+  width: 100px;
+  padding: 8px 4px;
+}
+
+.activa {
+  background-color: green;
+}
+
+.inactiva {
+  background-color: red;
+}
+
+.invitada {
+  background-color: blue;
+}
